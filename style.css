@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+header #profile-pic {
+    float: left;
+    width: 80px;
+    height: 80px;
+
+}
+
+header { 
+    padding: 20px;
+    background-color: lavenderblush;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header h1 {
+    font-size: 40px;
+    color: purple;
+    display:inline-block;
+}
+
+header h2 {
+    font-size: 25px;
+    color: purple;
+}
+
+
+header section ul {
+    float: right;
+    color: darkslateblue;
+    margin-right: 50px;
+    font-size: 21px;
+   
+}
+
+header section ul li{
+    display: inline-block;
+    margin-left: 25px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-image {
+    height: 300px;
+    width: 100%;
+    background-image: url(./header-picture.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    background-color:lightsteelblue;
+    padding-left: 10px;
+
+}
+
+.about-me {
+    padding-top: 25px;
+    width: 100%;
+}
+
+.about-me h2 {
+    text-align: left;
+    font-size: 30px;
+}
+
+.about-me p {
+    margin-left: 400px;
+    display:inline-block;
+}
+
+.work {
+    padding-top: 25px;
+    width: 100%;
+}
+
+.work h2 {
+    text-align: left;
+    font-size: 30px;
+}
+
+.work p {
+    margin-left: 400px;
+    display:inline-block;
+}
+
+.center {
+    display: block;
+    margin-left: 350px;
+    margin-right: auto;
+    width: 70%;
+
+}
+
+.work #one {
+    margin-left: 800px;
+}
+
+.work #two {
+    margin-left: 400px;
+}
+
+.work #project-1 {
+    width: 1000px;
+    height: 300px;
+    padding: 15px;
+}
+
+.work #project-2 {
+    margin-left: 400px;
+}
+
+.other {
+    display:inline-block;
+    margin-left: 100px;
+}
+
+#project-3 {
+    width: 318px;
+    height: 159px;
+}
+
+.contact-me {
+    padding-top: 50px;
+    width: 100%;
+    background-color: lightsteelblue;
+}
+
+.contact-me h2 {
+    text-align: left;
+    font-size: 30px;
+}
+
+
+article ul {
+    float: right;
+    color: darkslateblue;
+    margin-right: 50px;
+    font-size: 18px;
+}
+
+article ul li {
+    display: inline-block;
+    margin-left: 25px;
+
+}
+
